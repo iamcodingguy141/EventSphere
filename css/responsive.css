@@ -1,0 +1,65 @@
+@media (max-width: 1040px) {
+  .header-inner { gap: 1.35rem; }
+  .category-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
+  .dashboard-overview { grid-template-columns: minmax(0,1fr); gap: 0; }
+}
+@media (max-width: 850px) {
+  .container { width: min(100% - 40px,1216px); }
+  .header-inner { min-height: 63px; }
+  .mobile-toggle { display: inline-grid; }
+  .site-nav { display: none; padding: .7rem 1.25rem 1rem; background: #fff; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); position: absolute; inset: 100% 0 auto; box-shadow: var(--shadow); }
+  .site-nav.open { display: grid; justify-content: stretch; }
+  .site-nav nav { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .2rem; }
+  .site-nav nav a, .header-actions>a:not(.button) { padding: .55rem .25rem; }
+  .header-actions { flex-wrap: wrap; }
+  .profile-menu>div { left: 0; right: auto; }
+  .event-grid:not(.event-list) { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .calendar-section { grid-template-columns: minmax(0,1fr); }
+  .workspace-dashboard { grid-template-columns: 176px minmax(0,1fr); gap: .65rem; }
+  .dashboard-columns { grid-template-columns: minmax(0,1fr); gap: 0; }
+  .editor-grid { grid-template-columns: minmax(0,1fr); }
+  .editor-aside { max-width: 29rem; }
+}
+@media (max-width: 630px) {
+  .container { width: min(100% - 28px,1216px); }
+  .section-heading, .ticket-controls, .workspace-heading { align-items: flex-start; flex-direction: column; }
+  .hero-wrap { padding-top: .85rem; }
+  .hero { min-height: 426px; border-radius: 18px; }
+  .hero-media { inset: 0; }
+  .hero::after { background: linear-gradient(90deg,#1a1135f0,#1a1135b0 69%,#1a11356b), linear-gradient(0deg,#160c2eed,transparent 56%); }
+  .hero-content { padding: 1.15rem; }
+  .hero h1 { font-size: clamp(2.25rem,8.9vw,3.55rem); line-height: 1.01; }
+  .hero-search { gap: .22rem; }
+  .hero-search .button { padding-inline: .6rem; }
+  .event-grid:not(.event-list), .info-grid, .about-grid { grid-template-columns: minmax(0,1fr); }
+  .event-list .event-card { grid-template-columns: minmax(0,1fr); }
+  .event-list .card-media { aspect-ratio: 1.92; }
+  .category-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: .55rem; }
+  .category-tile { min-height: 90px; }
+  .stats-band { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .footer-main, .auth-page, .checkout-grid, .detail-grid, .workspace-dashboard { grid-template-columns: minmax(0,1fr); }
+  .footer-main { gap: .9rem; }
+  .auth-art { display: none; }
+  .filter-top, .filter-bottom { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .filter-top>label { grid-column: 1/-1; }
+  .filter-top>button { width: fit-content; grid-column: 1/-1; }
+  .booking-aside, .dashboard-sidebar { position: static; }
+  .booking-item { grid-template-columns: minmax(0,1fr); }
+  .booking-thumbnail { height: 115px; }
+  .calendar-card { padding: .53rem; }
+  .calendar-day, .blank-day { min-height: 45px; padding: .22rem; border-radius: 6px; }
+  .calendar-day small span { display: none; }
+  .calendar-heading .icon-button { width: 35px; height: 35px; }
+  .weekdays { font-size: .7rem; }
+  .dashboard-sidebar nav { grid-template-columns: repeat(auto-fit,minmax(112px,1fr)); }
+  .workspace-heading { margin-top: .7rem; }
+  .form-grid.three { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 360px) {
+  .form-grid, .form-grid.three, .filter-bottom, .developer-grid, .ticket-facts { grid-template-columns: minmax(0,1fr); }
+  .hero-actions .button { padding-inline: .6rem; }
+  .table-tools { grid-template-columns: minmax(0,1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ES-SAMPLE01",
+    "userId": "demo-user",
+    "eventId": "photo-masterclass",
+    "quantity": 2,
+    "subtotal": 998,
+    "discount": 0,
+    "total": 998,
+    "dateOffset": -3,
+    "status": "confirmed",
+    "payment": "UPI"
+  },
+  {
+    "id": "ES-SAMPLE02",
+    "userId": "seed-meera",
+    "eventId": "tech-summit",
+    "quantity": 3,
+    "subtotal": 1047,
+    "discount": 0,
+    "total": 1047,
+    "dateOffset": -8,
+    "status": "confirmed",
+    "payment": "Card"
+  },
+  {
+    "id": "ES-SAMPLE03",
+    "userId": "seed-kavya",
+    "eventId": "music-festival",
+    "quantity": 2,
+    "subtotal": 1598,
+    "discount": 0,
+    "total": 1598,
+    "dateOffset": -37,
+    "status": "confirmed",
+    "payment": "UPI"
+  },
+  {
+    "id": "ES-SAMPLE04",
+    "userId": "seed-meera",
+    "eventId": "photo-masterclass",
+    "quantity": 4,
+    "subtotal": 1996,
+    "discount": 0,
+    "total": 1996,
+    "dateOffset": -34,
+    "status": "confirmed",
+    "payment": "Net Banking"
+  },
+  {
+    "id": "ES-SAMPLE05",
+    "userId": "seed-kavya",
+    "eventId": "coding-hackathon",
+    "quantity": 3,
+    "subtotal": 747,
+    "discount": 0,
+    "total": 747,
+    "dateOffset": -63,
+    "status": "confirmed",
+    "payment": "Card"
+  },
+  {
+    "id": "ES-SAMPLE06",
+    "userId": "demo-user",
+    "eventId": "startup-meetup",
+    "quantity": 1,
+    "subtotal": 0,
+    "discount": 0,
+    "total": 0,
+    "dateOffset": -5,
+    "status": "cancelled",
+    "payment": "Free"
+  },
+  {
+    "id": "ES-SAMPLE07",
+    "userId": "seed-meera",
+    "eventId": "startup-meetup",
+    "quantity": 3,
+    "subtotal": 0,
+    "discount": 0,
+    "total": 0,
+    "dateOffset": -65,
+    "status": "confirmed",
+    "payment": "Free"
+  }
+]

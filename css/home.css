@@ -1,0 +1,41 @@
+.hero-wrap { padding-top: 1.55rem; }
+.hero { position: relative; isolation: isolate; overflow: hidden; display: flex; min-height: clamp(440px, 43vw, 508px); align-items: center; border-radius: 25px; background: #17112e; box-shadow: 0 13px 36px #22153c22; color: #fff; }
+.hero-media { position: absolute; inset: 0 0 0 32%; z-index: -2; }
+.hero-media img { object-position: 55% 49%; }
+.hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg,#16102c 0%,#1c1238 30%,#1b1033ed 44%,#1b103376 68%,#1b103319 100%), linear-gradient(0deg,#190c37a0,transparent 43%); }
+.hero-content { width: min(100%, 735px); padding: clamp(1.5rem, 4vw, 3.6rem) clamp(1.5rem, 3vw, 2.5rem) clamp(1.5rem, 4vw, 3.6rem) clamp(1.5rem, 5vw, 4.75rem); }
+.hero h1 { font-size: clamp(2.75rem, 5.35vw, 4.8rem); letter-spacing: -.066em; line-height: .98; }
+.hero h1 em { color: #c8b1ff; font-style: normal; }
+.hero p { margin: 1.3rem 0 1.5rem; max-width: 29rem; color: #ece4f9; font-size: clamp(.95rem, 1.4vw, 1.07rem); }
+.hero-search { display: flex; align-items: center; gap: .4rem; padding: .35rem .38rem .35rem .8rem; max-width: 465px; background: #fff; border-radius: 13px; color: #675d7b; box-shadow: 0 8px 30px #130d30a0; }
+.hero-search input:not([type="radio"]):not([type="checkbox"]) { margin: 0; border: 0; box-shadow: none; padding-inline: .4rem; font-size: .91rem; }
+.hero-search .button { min-height: 42px; padding-inline: 1.12rem; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1rem; }
+.category-grid { display: grid; grid-template-columns: repeat(8,minmax(0,1fr)); gap: .8rem; }
+.category-tile { display: grid; justify-items: center; align-content: center; gap: .65rem; min-height: 117px; padding: .7rem .3rem; text-align: center; border: 1px solid var(--line); background: #fff; border-radius: 14px; font-size: .83rem; transition: transform .2s, box-shadow .2s; }
+.category-tile:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.category-1 .icon-box, .category-5 .icon-box { background: #fae8f2; color: #a42470; }
+.category-2 .icon-box, .category-6 .icon-box { background: #e4f4f2; color: #08685b; }
+.category-3 .icon-box, .category-7 .icon-box { background: #fff0dc; color: #955500; }
+.category-4 .icon-box { background: #e7efff; color: #3253b0; }
+.info-grid, .developer-grid, .about-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1rem; }
+.developer-grid, .about-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.info-card, .quote-card, .developer-card { border: 1px solid var(--line); padding: 1.28rem; background: #fff; border-radius: var(--radius); min-width: 0; }
+.info-card h2, .info-card h3 { margin: .8rem 0 .42rem; }
+.info-card h2 { font-size: 1.5rem; }
+.info-card p, .developer-card p { color: var(--muted); }
+.info-card .card-link { margin-top: .75rem; }
+.stats-band { border-radius: 20px; padding: clamp(1rem,3vw,2.15rem); display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 1rem; text-align: center; color: #fff; background: radial-gradient(ellipse at 93% 0%, #5132a2, transparent 60%), #201541; }
+.stats-band strong { display: block; color: #e5d9ff; font-size: clamp(1.65rem,4vw,3rem); line-height: 1.05; margin-bottom: .25rem; }
+.stats-band span { color: #eee7fd; font-size: .86rem; }
+.why-block { padding-top: 0; }
+.quote-card { display: flex; flex-direction: column; gap: 1rem; }
+.quote-card blockquote { color: #3b3552; flex: 1; }
+.quote-card figcaption { display: flex; gap: .65rem; align-items: center; }
+.quote-card small { display: block; color: var(--muted); }
+.developer-card { text-align: center; background: radial-gradient(ellipse at 50% 0%,#f3edff,#fff 70%); padding-block: 1.8rem; }
+.developer-avatar { width: 66px; height: 66px; display: inline-grid; place-items: center; background: #e6d9ff; color: #542cb8; border-radius: 19px; margin-bottom: .68rem; font-weight: 800; font-size: 1.2rem; }
+.developer-card p { margin-top: .28rem; }
+.about-hero { padding: clamp(2.4rem,7vw,5.25rem) 1.2rem; text-align: center; border-radius: 25px; background: radial-gradient(ellipse at 93% 0%, #5434ab, transparent 65%), #201541; color: #fff; }
+.about-hero img { margin: 0 auto 1rem; }
+.about-hero p { color: #e7dcff; margin: .7rem 0 1.2rem; }

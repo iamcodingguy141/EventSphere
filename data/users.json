@@ -1,0 +1,54 @@
+[
+  {
+    "id": "demo-admin",
+    "name": "EventSphere Admin",
+    "email": "admin@eventsphere.com",
+    "phone": "",
+    "role": "admin",
+    "demoPassword": "Admin123"
+  },
+  {
+    "id": "demo-organizer",
+    "name": "EventSphere Studio",
+    "email": "organizer@eventsphere.com",
+    "phone": "",
+    "role": "organizer",
+    "demoPassword": "Organizer123"
+  },
+  {
+    "id": "demo-user",
+    "name": "Aarav Shah",
+    "email": "user@eventsphere.com",
+    "phone": "",
+    "role": "user",
+    "demoPassword": "User123"
+  },
+  {
+    "id": "seed-creative",
+    "name": "Gujarat Creative Events",
+    "email": "creative@example.test",
+    "phone": "",
+    "role": "organizer"
+  },
+  {
+    "id": "seed-community",
+    "name": "Gujarat Community Events",
+    "email": "community@example.test",
+    "phone": "",
+    "role": "organizer"
+  },
+  {
+    "id": "seed-meera",
+    "name": "Meera Joshi",
+    "email": "meera@example.test",
+    "phone": "",
+    "role": "user"
+  },
+  {
+    "id": "seed-kavya",
+    "name": "Kavya Desai",
+    "email": "kavya@example.test",
+    "phone": "",
+    "role": "user"
+  }
+]

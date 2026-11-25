@@ -1,0 +1,450 @@
+[
+  {
+    "id": "tech-summit",
+    "title": "Tech Innovation Summit",
+    "category": "Technology",
+    "city": "Vadodara",
+    "venue": "The Fern, Akota",
+    "price": 349,
+    "capacity": 180,
+    "dateOffset": 3,
+    "start": "09:30",
+    "end": "16:30",
+    "image": "images/tech.jpg",
+    "description": "A day of talks, live demos and conversations on AI, software and the work behind emerging products.",
+    "organizer": "Vadodara Tech Collective",
+    "organizerId": "seed-community",
+    "status": "approved",
+    "featured": true,
+    "schedule": [
+      {
+        "time": "09:30",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "10:30",
+        "title": "Main programme"
+      },
+      {
+        "time": "16:30",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "music-festival",
+    "title": "Ahmedabad Music Festival",
+    "category": "Music",
+    "city": "Ahmedabad",
+    "venue": "Riverfront Event Centre",
+    "price": 799,
+    "capacity": 350,
+    "dateOffset": 5,
+    "start": "18:00",
+    "end": "22:00",
+    "image": "images/music.jpg",
+    "description": "Spend an evening by the Sabarmati with indie bands, acoustic sets and local food stalls.",
+    "organizer": "Riverfront Live",
+    "organizerId": "seed-creative",
+    "status": "approved",
+    "featured": true,
+    "schedule": [
+      {
+        "time": "18:00",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "19:00",
+        "title": "Live performances"
+      },
+      {
+        "time": "22:00",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "photo-masterclass",
+    "title": "Photography Masterclass",
+    "category": "Workshops",
+    "city": "Vadodara",
+    "venue": "Alembic Art District",
+    "price": 499,
+    "capacity": 24,
+    "dateOffset": 8,
+    "start": "10:00",
+    "end": "13:30",
+    "image": "images/photo.jpg",
+    "description": "Learn composition and lighting, then put the techniques into practice on a guided photo walk.",
+    "organizer": "EventSphere Studio",
+    "organizerId": "demo-organizer",
+    "status": "approved",
+    "featured": true,
+    "schedule": [
+      {
+        "time": "10:00",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "11:00",
+        "title": "Main programme"
+      },
+      {
+        "time": "13:30",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "startup-meetup",
+    "title": "Startup Networking Meetup",
+    "category": "Business",
+    "city": "Vadodara",
+    "venue": "TransCube Plaza, Sayajigunj",
+    "price": 0,
+    "capacity": 65,
+    "dateOffset": 10,
+    "start": "17:30",
+    "end": "20:00",
+    "image": "images/business.jpg",
+    "description": "Meet local founders and share ideas in small groups, followed by open networking.",
+    "organizer": "EventSphere Studio",
+    "organizerId": "demo-organizer",
+    "status": "approved",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "17:30",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "18:30",
+        "title": "Main programme"
+      },
+      {
+        "time": "20:00",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "cultural-fest",
+    "title": "College Cultural Fest",
+    "category": "Entertainment",
+    "city": "Vadodara",
+    "venue": "University Auditorium, Waghodia",
+    "price": 149,
+    "capacity": 260,
+    "dateOffset": 12,
+    "start": "15:00",
+    "end": "21:00",
+    "image": "images/culture.jpg",
+    "description": "Watch student dance and theatre performances, visit creative stalls and vote for your favourite short film.",
+    "organizer": "Campus Arts Council",
+    "organizerId": "seed-creative",
+    "status": "approved",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "15:00",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "16:00",
+        "title": "Main programme"
+      },
+      {
+        "time": "21:00",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "business-conference",
+    "title": "Business Leadership Conference",
+    "category": "Business",
+    "city": "Ahmedabad",
+    "venue": "Pride Plaza, Bodakdev",
+    "price": 999,
+    "capacity": 160,
+    "dateOffset": 16,
+    "start": "09:00",
+    "end": "17:15",
+    "image": "images/conference.jpg",
+    "description": "Join practical panels on growing a team, developing a brand and building a sustainable business.",
+    "organizer": "Founders Forum Gujarat",
+    "organizerId": "seed-community",
+    "status": "approved",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "09:00",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "10:00",
+        "title": "Main programme"
+      },
+      {
+        "time": "17:15",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "robotics-exhibition",
+    "title": "AI & Robotics Exhibition",
+    "category": "Technology",
+    "city": "Vadodara",
+    "venue": "Science Centre, Sayajibaug",
+    "price": 0,
+    "capacity": 120,
+    "dateOffset": 19,
+    "start": "10:00",
+    "end": "16:00",
+    "image": "images/robotics.jpg",
+    "description": "Explore robotics demonstrations and try interactive exhibits built by local students and makers.",
+    "organizer": "EventSphere Studio",
+    "organizerId": "demo-organizer",
+    "status": "approved",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "10:00",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "11:00",
+        "title": "Main programme"
+      },
+      {
+        "time": "16:00",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "sports-championship",
+    "title": "Vadodara Sports Championship",
+    "category": "Sports",
+    "city": "Vadodara",
+    "venue": "Manjalpur Sports Complex",
+    "price": 199,
+    "capacity": 200,
+    "dateOffset": 22,
+    "start": "08:00",
+    "end": "17:00",
+    "image": "images/sports.jpg",
+    "description": "Cheer on local teams competing in athletics and indoor sports, with finals and awards in the afternoon.",
+    "organizer": "Vadodara Sports Network",
+    "organizerId": "seed-community",
+    "status": "approved",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "08:00",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "09:00",
+        "title": "Main programme"
+      },
+      {
+        "time": "17:00",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "art-exhibition",
+    "title": "Art & Design Exhibition",
+    "category": "Art and Culture",
+    "city": "Vadodara",
+    "venue": "Faculty of Fine Arts Gallery",
+    "price": 0,
+    "capacity": 90,
+    "dateOffset": 25,
+    "start": "11:00",
+    "end": "17:00",
+    "image": "images/art.jpg",
+    "description": "Explore original illustrations, photography and objects from emerging artists across Gujarat.",
+    "organizer": "Studio Baroda",
+    "organizerId": "seed-creative",
+    "status": "approved",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "11:00",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "12:00",
+        "title": "Main programme"
+      },
+      {
+        "time": "17:00",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "bootcamp",
+    "title": "Entrepreneurship Bootcamp",
+    "category": "Education",
+    "city": "Anand",
+    "venue": "Knowledge Hub, Vallabh Vidyanagar",
+    "price": 299,
+    "capacity": 50,
+    "dateOffset": 30,
+    "start": "10:00",
+    "end": "16:00",
+    "image": "images/education.jpg",
+    "description": "Build a pitch, test an idea with peers and get feedback from founders during a guided workshop.",
+    "organizer": "Anand Enterprise Lab",
+    "organizerId": "seed-community",
+    "status": "approved",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "10:00",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "11:00",
+        "title": "Main programme"
+      },
+      {
+        "time": "16:00",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "coding-hackathon",
+    "title": "Coding Hackathon",
+    "category": "Technology",
+    "city": "Vadodara",
+    "venue": "Innovation Lab, Alkapuri",
+    "price": 249,
+    "capacity": 72,
+    "dateOffset": 34,
+    "start": "09:00",
+    "end": "19:00",
+    "image": "images/coding.jpg",
+    "description": "Work with a small team to build and present a prototype. Mentors will be available throughout the day.",
+    "organizer": "EventSphere Studio",
+    "organizerId": "demo-organizer",
+    "status": "approved",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "09:00",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "10:00",
+        "title": "Main programme"
+      },
+      {
+        "time": "19:00",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "marketing-workshop",
+    "title": "Digital Marketing Workshop",
+    "category": "Workshops",
+    "city": "Surat",
+    "venue": "Workplace One, Vesu",
+    "price": 399,
+    "capacity": 38,
+    "dateOffset": 40,
+    "start": "10:00",
+    "end": "14:30",
+    "image": "images/workshop.jpg",
+    "description": "Plan a campaign, practise writing search-friendly content and learn to read basic campaign analytics.",
+    "organizer": "Surat Digital Guild",
+    "organizerId": "seed-community",
+    "status": "approved",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "10:00",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "11:00",
+        "title": "Main programme"
+      },
+      {
+        "time": "14:30",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "acoustic-sessions",
+    "title": "Acoustic Sessions at Sunset",
+    "category": "Music",
+    "city": "Vadodara",
+    "venue": "The Amphitheatre, Sevasi",
+    "price": 299,
+    "capacity": 70,
+    "dateOffset": 45,
+    "start": "17:30",
+    "end": "20:30",
+    "image": "images/acoustic.jpg",
+    "description": "Listen to intimate acoustic sets by Gujarat-based performers in an open-air venue.",
+    "organizer": "Riverfront Live",
+    "organizerId": "seed-creative",
+    "status": "approved",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "17:30",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "18:30",
+        "title": "Live performances"
+      },
+      {
+        "time": "20:30",
+        "title": "Closing and departure"
+      }
+    ]
+  },
+  {
+    "id": "design-critique",
+    "title": "Design Feedback Circle",
+    "category": "Art and Culture",
+    "city": "Vadodara",
+    "venue": "TransCube Plaza, Sayajigunj",
+    "price": 0,
+    "capacity": 65,
+    "dateOffset": 18,
+    "start": "17:30",
+    "end": "20:00",
+    "image": "images/art.jpg",
+    "description": "Bring a work in progress and exchange constructive feedback with local designers.",
+    "organizer": "EventSphere Studio",
+    "organizerId": "demo-organizer",
+    "status": "pending",
+    "featured": false,
+    "schedule": [
+      {
+        "time": "17:30",
+        "title": "Check-in and welcome"
+      },
+      {
+        "time": "18:30",
+        "title": "Main programme"
+      },
+      {
+        "time": "20:00",
+        "title": "Closing and departure"
+      }
+    ]
+  }
+]

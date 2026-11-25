@@ -1,0 +1,53 @@
+.checkout, .bookings-page, .ticket-page { padding-block: 1.8rem 4.25rem; }
+.checkout-grid { display: grid; grid-template-columns: minmax(0,1.25fr) minmax(275px,.75fr); gap: 1.5rem; align-items: start; }
+.checkout-form { padding: clamp(1rem,3vw,1.65rem); }
+.checkout-form section+section { border-top: 1px solid var(--line); padding-top: .9rem; }
+.checkout-form h2, .checkout-form legend, .order-body h2, .booking-item h2 { font-size: 1.25rem; margin: 0 0 .8rem; font-weight: 750; }
+.checkout-form fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.checkout-form legend { margin-bottom: .3rem; padding: 0; }
+.qty-row { display: flex; align-items: end; gap: .7rem; flex-wrap: wrap; }
+.qty-row label { width: 135px; }
+.qty-row p { padding-bottom: .55rem; font-size: .85rem; }
+.payment-options { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: .65rem; }
+.payment-options label { display: flex; align-items: center; gap: .35rem; background: var(--soft); border: 1px solid var(--line); padding: .48rem .65rem; border-radius: 10px; cursor: pointer; }
+.payment-options input { accent-color: var(--primary); }
+.order-summary { overflow: hidden; }
+.order-media { aspect-ratio: 2.55; }
+.order-body { padding: 1.05rem; display: grid; gap: .5rem; }
+.order-body h2 { margin: 0; }
+.coupon-field { margin-top: .3rem; }
+.price-breakdown>div { display: flex; justify-content: space-between; gap: .65rem; border-bottom: 1px solid var(--line); padding: .42rem 0; color: var(--muted); }
+.price-breakdown dd { margin: 0; font-weight: 750; }
+.price-breakdown .order-total { border: 0; color: var(--primary-dark); font-size: 1.2rem; font-weight: 800; }
+.inline-control { max-width: 230px; margin-bottom: .85rem; }
+.booking-list { display: grid; gap: .75rem; }
+.booking-item { display: grid; grid-template-columns: 180px minmax(0,1fr); min-height: 167px; overflow: hidden; }
+.booking-thumbnail { overflow: hidden; background: var(--lavender); }
+.booking-info { padding: .9rem 1rem; min-width: 0; }
+.booking-top { display: flex; gap: .4rem 1.25rem; align-items: center; flex-wrap: wrap; margin-bottom: .3rem; }
+.booking-top h2 { margin: 0; overflow-wrap: anywhere; }
+.booking-ref { font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; margin: .35rem 0; }
+.booking-ref span, .table-id { font-family: "Consolas", monospace; }
+.booking-totals { font-size: .9rem; margin-bottom: .58rem; }
+.ticket-page { max-width: 860px; }
+.ticket-controls { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 1.3rem; }
+.ticket-controls h1 { font-size: clamp(2rem,4vw,3rem); }
+.ticket-controls p { color: var(--muted); margin-top: .4rem; }
+.digital-ticket { border: 1px solid #ddd2f6; border-radius: 20px; box-shadow: var(--shadow); overflow: hidden; }
+.digital-ticket>header { padding: 1rem 1.35rem; display: flex; align-items: center; justify-content: space-between; gap: .9rem; background: #221640; color: #e8dcff; }
+.digital-ticket .brand { color: #fff; }
+.ticket-content { padding: clamp(1rem,3vw,1.7rem); }
+.ticket-content h2 { overflow-wrap: anywhere; }
+.ticket-facts { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .7rem 1.05rem; margin-top: .9rem; }
+.ticket-facts dt, .digital-ticket footer p { color: var(--muted); font-size: .84rem; }
+.ticket-facts dd { margin: .2rem 0 0; font-weight: 750; overflow-wrap: anywhere; }
+.digital-ticket>footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .75rem; border-top: 2px dashed #ded0f6; background: var(--soft); padding: 1rem 1.35rem; }
+.digital-ticket>footer strong { display: block; font-family: "Consolas", monospace; color: var(--ink); margin-top: .22rem; overflow-wrap: anywhere; }
+@media print {
+  body { color: #000; background: #fff; }
+  body[data-page="ticket"] #site-header, body[data-page="ticket"] #site-footer, .ticket-controls, .notifications, .skip-link { display: none !important; }
+  .ticket-page { width: 100%; padding: 0; }
+  .digital-ticket { box-shadow: none; border: 1px solid #777; break-inside: avoid; }
+  .digital-ticket>header, .digital-ticket .brand { color: #000; background: #fff; }
+  .status { background: transparent; border: 1px solid #aaa; }
+}
