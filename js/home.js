@@ -5,7 +5,7 @@ const sectionHeader = (title,detail,link='',label='') => `<div class="section-he
 
 function developers() {
   return `<section class="container section-block" id="developers">${sectionHeader('Meet the developers','Developed as part of a college Project-Based Learning (PBL) project.')}
-    <div class="developer-grid">${['Patel Gauri','Veda Mrudula'].map(name=>`<article class="developer-card"><span class="developer-avatar">${initials(name)}</span><h3>${name}</h3><p>Project developer</p></article>`).join('')}</div></section>`;
+    <div class="developer-grid">${['Gauri Patel','Maredla Veda Varshitha '].map(name=>`<article class="developer-card"><span class="developer-avatar">${initials(name)}</span><h3>${name}</h3><p>Project developer</p></article>`).join('')}</div></section>`;
 }
 
 const workflow = [
