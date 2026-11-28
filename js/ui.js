@@ -103,7 +103,7 @@ export function renderShell(page) {
   el('#site-footer').innerHTML = `<div class="container"><div class="footer-main"><div>${brand}<p>Discover Experiences. Create Memories.</p></div>
     <nav aria-label="Footer navigation"><a href="events.html">Explore events</a><a href="calendar.html">Calendar</a><a href="about.html">About us</a></nav>
     <div><strong>College PBL Project</strong><p>HTML5 | CSS3 | JavaScript | JSON</p></div></div>
-    <p class="footer-copy">© 2026 EventSphere. Developed by Patel Gauri &amp; Veda Mrudula. All Rights Reserved.</p></div>`;
+    <p class="footer-copy">© 2026 EventSphere. Developed by Patel Gauri &amp; Maredla Veda Varshitha. All Rights Reserved.</p></div>`;
   $('#menu-toggle').on('click',function () {
     const open = $(this).attr('aria-expanded') === 'true';
     $(this).attr('aria-expanded',String(!open));
